@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HirePro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jua&family=Poppins:ital,wght@0,200;0,400;0,500;1,300;1,600;1,800&display=swap");
+
+    </style>
+  </head>
+  <body>
+    <div class="colour">
+      <p>Call Us: 8668570</p>
+    </div>
+    <div class="topnav">
+      <img id="logo" src="logo.png" alt="" />
+      <div class="navbar">
+        <span>HirePro</span>
+        <div class="nav" id="myNav">
+          <a href="/">Home</a>
+          <a href="/work.html">Work</a>
+          <a href="/services.html">Services</a>
+         <a href="/blog.html">Blogs</a>
+          
+         <button id="login">Login</button>
+         <button id="register">Register</button>
+         
+         <div id="modal" class="modal">
+           <div class="modal-content">
+             <span class="close">&times; </span>
+             <h2>Login</h2>
+             <form id="loginForm">
+               <label for="username">Username:</label>
+               <input type="text" id="username" required>
+               <label for="password">Password</label>
+               <input type="password" id="password" required>
+               <button type="submit" style="height: 2.3rem; width: 6.7rem;">Submit</button>
+             </form>
+           </div>
+         </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="left-column">
+        <p class="title">Welcome to HirePro</p>
+        <p>Transform Your Hiring</p>
+        <p>Process with our Digital</p>
+        <p>Recruitment Solution</p>
+      </div>
+      <div class="right-column">
+        <p class="title">Key Features:</p>
+        <div>
+          <p>Intelligent Matching Algorithm: Our advanced algorithm matches</p>
+          <p>
+            job requirements with candidate profiles, ensuring a higher
+            likelihood of
+          </p>
+          <p>finding the best fit for each position.</p>
+          <p>
+            Customizable Application Forms: Create tailored application forms
+          </p>
+          <p>
+            with specific questions and requirements to gather relevant
+            information
+          </p>
+          <p class="info">from candidates.</p>
+        </div>
+        <div class="C2" class="info">
+          <p class="title">Benefits for Hiring Managers and HR :</p>
+          <p>
+            Simplify the Hiring Process: Our platform simplifies and streamlines
+          </p>
+          <p>
+            every step of the hiring process, from posting job listings to
+            making the
+          </p>
+          <p>final hiring decision.</p>
+          <p>Save Time and Resources: Reduce manual effort and automate</p>
+          <p>repetitive tasks, allowing you to focus on strategic</p>
+          <p>decision-making and building</p>
+          <p>meaningful connections with candidates.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+    <div class=>Lets Connect</div>
+    <div class="contact">
+      <span class="social">
+        <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+      </span>
+    </div>
+    
+<button id="searchButton">Search Candidates</button>
+
+<input type="text" id="searchInput" placeholder="Search here">
+
+<div id="searchResults">
+  
+</div>
+
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
